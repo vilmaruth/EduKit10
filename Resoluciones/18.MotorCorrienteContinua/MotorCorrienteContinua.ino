@@ -9,8 +9,8 @@ de giro y usaremos el pin 3 para realizar el control de potencia de arduino usá
 como salida analógica (PWM).
 Nota: para esta práctica vamos a utilizar el chip L293D.*/
 void setup(){
-  pinMode(5, OUTPUT); // declaramos el pin 7 como salida
-  pinMode(6, OUTPUT); // declaramos el pin 8 como salida
+  pinMode(5, OUTPUT); // declaramos el pin 5 como salida
+  pinMode(6, OUTPUT); // declaramos el pin 6 como salida
 }
 void secuencia() {// función que realiza la secuencia de movimiento del motor
   digitalWrite (5, HIGH);
